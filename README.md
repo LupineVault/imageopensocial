@@ -4,7 +4,7 @@ First make an XML file in a GitHub Repo:
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-<ModulePrefs title="Snow Rider 3D" />
+<ModulePrefs title="Your_Title_Here" />
 <Content type="html"><![CDATA[
 
 HTML HERE!
