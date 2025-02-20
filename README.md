@@ -3,6 +3,8 @@ Image Open Social Links How-To:
 ## About:
 Image Open Social links is an old "gadget" feature of Google Sites that a lot  of web bl0ckers ignore for whatever reason
 
+
+## How to Make One:
 First make an XML file in a GitHub Repo:
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
