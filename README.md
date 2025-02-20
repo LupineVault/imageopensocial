@@ -20,7 +20,7 @@ HTML HERE!
 
 With html code in between the `<Content type="html"><![CDATA[` and `]]></Content>` tags (make sure to use a CDN for ALL external recources, like images, styles, or JS, I reccomend JSDelivr)
 
-Copy the link to the file in your *public* GitHub repo and go to [JSDelivr](https://www.jsdelivr.com/github) and get your JSDelivr CDN link
+Copy the link to the XML file in your *public* GitHub repo and go to [JSDelivr](https://www.jsdelivr.com/github) and get your JSDelivr CDN link
 
 Then make an Image Open Social link using the format below:
 
