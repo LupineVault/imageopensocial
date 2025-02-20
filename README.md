@@ -29,6 +29,7 @@ Then make an Image Open Social link using the format below:
 Replace `WHATEVERYOUWANT` with any string of characters and `YOUR_JSDELIVR_XML_LINK` with your JSDelivr XML file
 
 ## Example:
+This is the `gnspn.xml` file in this repo:
 ```url
 https://psd0620-pssis-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/LupineVault/imageopensocial@9f1eff6ce4e7a418ad4783259673b2e9b71aca19/gnspn.xml&container=ig
 ```
