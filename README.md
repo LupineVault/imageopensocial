@@ -5,7 +5,7 @@ Image Open Social links is an old "gadget" feature of Google Sites that a lot  o
 
 
 ## How to Make One:
-First make an XML file in a GitHub Repo:
+First make an XML file in a public GitHub Repo:
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
