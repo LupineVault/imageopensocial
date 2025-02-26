@@ -29,7 +29,7 @@ Then make an Image Open Social link using the format below:
 
 `https://WHATEVERYOUWANT-opensocial.googleusercontent.com/gadgets/ifr?url=YOUR_JSDELIVR_XML_LINK&container=ig`
 
-Replace `WHATEVERYOUWANT` with any string of characters and `YOUR_JSDELIVR_XML_LINK` with your JSDelivr XML file
+Replace `WHATEVERYOUWANT` with any string of characters and `YOUR_JSDELIVR_XML_LINK` with your JSDelivr XML file. Make sure to keep `&container=ig` at the end or it won't work
 
 ## Example:
 This is the `gnspn.xml` file in this repo:
