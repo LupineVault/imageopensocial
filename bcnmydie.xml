@@ -6,7 +6,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1280 720">
     <title>Google</title>
     <foreignObject x="0" y="0" width="100%" height="100%">
-        <embed xmlns="http://www.w3.org/1999/xhtml" src="https://www.bubbleshooter.net/games/bacon-may-die/" type="text/plain" width="100%" height="100%" />
+        <embed xmlns="http://www.w3.org/1999/xhtml" src="https://bacon-maydie.github.io/file/" type="text/plain" width="100%" height="100%" />
     </foreignObject>
 </svg>
 
