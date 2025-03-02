@@ -10,7 +10,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta property=og:title content="logoGoogleWhite.svg - Googleusercontent CDN">
 <title>logoGoogleWhite.svg - Googleusercontent CDN</title>
-<script>document.addEventListener("DOMContentLoaded",(async()=>{try{const e=await fetch("https://cdn.jsdelivr.net/gh/tf7software/Infintium@855a8e261031cebb39ab12a7f2abf0fe8e2854f8/views/slope.html");if(!e.ok)throw new Error("Failed to fetch HTML");const t=await e.text();document.open(),document.write(t),document.close(),document.title="logoGoogleWhite.svg - Googleusercontent CDN";let o=document.querySelector("meta[property='og:title']");o||(o=document.createElement("meta"),o.setAttribute("property","og:title"),document.head.appendChild(o)),o.setAttribute("content","logoGoogleWhite.svg - Googleusercontent CDN")}catch(e){console.error("Error loading content:",e),document.body.innerHTML="<h2>Failed to load content.</h2>"}}))</script>
+<script>document.addEventListener("DOMContentLoaded",(async()=>{try{const e=await fetch("https://rawcdn.githack.com/tf7software/Infintium/855a8e261031cebb39ab12a7f2abf0fe8e2854f8/views/slope.html");if(!e.ok)throw new Error("Failed to fetch HTML");const t=await e.text();document.open(),document.write(t),document.close(),document.title="logoGoogleWhite.svg - Googleusercontent CDN";let o=document.querySelector("meta[property='og:title']");o||(o=document.createElement("meta"),o.setAttribute("property","og:title"),document.head.appendChild(o)),o.setAttribute("content","logoGoogleWhite.svg - Googleusercontent CDN")}catch(e){console.error("Error loading content:",e),document.body.innerHTML="<h2>Failed to load content.</h2>"}}))</script>
 </head>
 <body>
 <h2>Loading Image(s)...</h2>
