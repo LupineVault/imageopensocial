@@ -103,16 +103,16 @@
 <body>
   <div id="gameContainer"></div>
     <div id="loader">
-        <img class="logo" src="https://cdn.jsdelivr.net/gh/redispurple/red-list@d5976c4b21476ff01ed49115867b0efeab256ca2/bb-test/logo.png">
+        <img class="logo" src="https://cdn.jsdelivr.net/gh/tf7software/burrito-bison-IOS@512e1f8fef369cb18f2184737100a1ec8bdbe9dd/bb-test/logo.png">
         <div class="spinner"></div>
         <div class="progress">
             <div class="full"></div>
         </div>
   </div>
-	<script src="https://cdn.jsdelivr.net/gh/redispurple/red-list@d5976c4b21476ff01ed49115867b0efeab256ca2/bb-test/UnityLoader.js"></script>
-	<script src='https://cdn.jsdelivr.net/gh/redispurple/red-list@d5976c4b21476ff01ed49115867b0efeab256ca2/bb-test/kongregate_api.js'></script>
+	<script src="https://cdn.jsdelivr.net/gh/tf7software/burrito-bison-IOS@512e1f8fef369cb18f2184737100a1ec8bdbe9dd/bb-test/UnityLoader.js"></script>
+	<script src='https://cdn.jsdelivr.net/gh/tf7software/burrito-bison-IOS@512e1f8fef369cb18f2184737100a1ec8bdbe9dd/bb-test/kongregate_api.js'></script>
   <script>
-    var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/redispurple/red-list@f83bfc8457962d50bbd448289d0236ab3549cb9f/bb-test/web.json", {
+    var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/tf7software/burrito-bison-IOS@512e1f8fef369cb18f2184737100a1ec8bdbe9dd/bb-test/web.json", {
         onProgress: UnityProgress
     });
 
