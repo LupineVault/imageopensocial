@@ -3,7 +3,7 @@
 <ModulePrefs title="learningOnlineMath.svg - SISCDN" />
 <Content type="html"><![CDATA[
 
-<!DOCTYPE html><html lang="en"><head><link href="../css/waflash.css" rel="stylesheet" type="text/css"><title>Papa's Freezeria - Bigfoot's Game Shack</title></head><body dir="ltr"><script>var gameConfig = {
+<!DOCTYPE html><html lang="en"><head><link href="../css/waflash.css" rel="stylesheet" type="text/css"><title>pf.svg</title></head><body dir="ltr"><script>var gameConfig = {
 			swfUrl: 'https://cdn.jsdelivr.net/gh/LupineVault/LupineVault@main/games/files/papas-freezeria/swf/papasfreezeria.swf'
 		}</script><div id="waflashContainer"><canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas><div id="waflashStatus" style="display: none;">Playing...</div><script>var ua = navigator.userAgent.toLowerCase();
 		if ( (navigator.appName =='Netscape' && ua.indexOf('trident') != -1) || (ua.indexOf("msie") != -1)) {
