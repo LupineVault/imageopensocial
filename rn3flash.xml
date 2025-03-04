@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Your_Title_Here" />
+<Content type="html"><![CDATA[
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Master - Learn Math in an INSTANT! | Login</title>
+<style>
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+}
+
+#ruffle-container {
+  width: 100%;
+  height: 100%;
+}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.1.0-nightly.2025.3.4/ruffle.min.js"></script>
+</head>
+<body>
+
+<div id="ruffle-container"></div>
+
+<script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.addEventListener("load", (event) => {
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+    const container = document.getElementById("ruffle-container");
+    container.appendChild(player);
+
+    player.load("https://cdn.jsdelivr.net/gh/LupineVault/IOSPAPAs@4ded90b34fb44c6826626ba704db3eaef77d5a77/r3/r3.swf"); 
+
+    
+    player.style.width = "100%";
+    player.style.height = "100%";
+  });
+
+</script>
+
+</body>
+</html>
+
+]]></Content>
+</Module>
