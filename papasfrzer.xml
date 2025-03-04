@@ -1,62 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-<ModulePrefs title="learningOnlineMath.svg - SISCDN" />
+<ModulePrefs title="google_main-cdn.svg" />
 <Content type="html"><![CDATA[
 
-<!DOCTYPE html><html lang="en"><head><title>pf.svg</title></head><body dir="ltr"><script>var gameConfig = {
-			swfUrl: 'https://cdn.jsdelivr.net/gh/LupineVault/LupineVault@main/games/files/papas-freezeria/swf/papasfreezeria.swf'
-		}</script><div id="waflashContainer"><canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas><div id="waflashStatus" style="display: none;">Playing...</div><script>var ua = navigator.userAgent.toLowerCase();
-		if ( (navigator.appName =='Netscape' && ua.indexOf('trident') != -1) || (ua.indexOf("msie") != -1)) {
-    		var waf = document.getElementById('waflashStatus');
-			waf.style.display ='block';
-			waf.innerText ='??? ?????(IE) ??? ??? ???? ???? !\n??, ???? ?? ????? ??????.';
-			gtag('event', 'connect_from_ie', {'event_category': 'error', 'event_label': ua });
-		}</script><script crossorigin="anonymous" type="module">let is_mobile = /Mobi/i.test(window.navigator.userAgent);
-		if (is_mobile) {
-			function scrollToSubject() {
-				try {
-					window.scrollTo({
-						top: 100,
-						left: 0,
-						behavior: 'smooth'
-					});
-				} catch (e) {}
-			}
-			scrollToSubject();
-			window.addEventListener("orientationchange", function() {
-				setTimeout(scrollToSubject, 100);
-			});
-		} else {
-			document.getElementById('canvas').focus();
-		}
-		document.getElementById('canvas').addEventListener("keydown", function(ev) {
-			ev.preventDefault();
-			ev.stopPropagation();
-		});
-		document.getElementById('canvas').addEventListener("click", function() {
-			document.getElementById('canvas').focus();
-		});
-		document.addEventListener("mousedown", (function() {
-			const canvasElement = document.getElementById('canvas');
-			let focused = false;
-			return function(ev) {
-				if (ev.target == canvasElement) {
-					if (!focused) {
-						canvasElement.focus();
-						focused = true;
-					}
-				} else {
-					if (focused) {
-						focused = false;
-					}
-				}
-				return true;
-			}
-		})());
-		import {
-			createWaflash
-		} from 'https://cdn.jsdelivr.net/gh/imadejptr/waflash@8fdb5394db3a67d7908db7fefd67b7deb904545f/waflash.min.js';
-		createWaflash(gameConfig.swfUrl, window.wafOptions || {});</script></div></body></html>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1280 720">
+    <title>Google</title>
+    <foreignObject x="0" y="0" width="100%" height="100%">
+        <embed xmlns="http://www.w3.org/1999/xhtml" src="https://learn.benrogo.net/games/files/papas-freezeria/index.html" type="text/plain" width="100%" height="100%" />
+    </foreignObject>
+</svg>
+
 
 ]]></Content>
 </Module>
