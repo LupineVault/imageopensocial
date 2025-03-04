@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="google_main-cdn.svg" />
+<Content type="html"><![CDATA[
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1280 720">
+    <title>Google</title>
+    <foreignObject x="0" y="0" width="100%" height="100%">
+        <embed xmlns="http://www.w3.org/1999/xhtml" src="https://html5.gamedistribution.com/68ac1f7590ef439e92765e4199779d65/?gd_sdk_referrer_url=https://www.kiloo.com/en/wheely-2/" type="text/plain" width="100%" height="100%" />
+    </foreignObject>
+</svg>
+
+
+]]></Content>
+</Module>
