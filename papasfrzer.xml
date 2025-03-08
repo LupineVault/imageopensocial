@@ -35,7 +35,7 @@ body, html {
     const container = document.getElementById("ruffle-container");
     container.appendChild(player);
 
-    player.load("https://cdn.jsdelivr.net/gh/LupineVault/IOSPAPAs@6dfe2fb70387892b7191e69f38bcdee44822ef3e/pf.swf"); 
+    player.load("https://cdn.jsdelivr.net/gh/LupineVault/IOSPAPAs@0594bdbcd2605bdf5b505a499c8a0a46a768bd67/pf.swf"); 
 
     
     player.style.width = "100%";
