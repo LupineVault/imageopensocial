@@ -1,3 +1,5 @@
+# As of 03//07//25 I am sad to announce that Image Open Social Links no longer are supported on any platform.
+
 Image Open Social Links How-To:
 
 ## About:
